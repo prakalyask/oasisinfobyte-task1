@@ -1,0 +1,108 @@
+/* External CSS */
+body {
+  color: #444; /* shade of black */
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+  font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+background-color: #000000;	
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 60px;
+}
+
+.header .menu-icon {
+display: none;
+}
+
+.header ul {
+list-style: none;
+display: flex;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.header ul li {
+margin-left: 20px;
+}
+
+.header ul li a {
+color: #fff;
+text-decoration: none;
+padding: 10px;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.header ul li a:hover {
+background-color: #9400d3;
+}
+
+.logo a {
+color: #fff;
+font-size: 24px;
+text-decoration: none;
+}
+
+
+.hero {
+  background-color: #eee;
+  color: #fff;
+  text-align: center;
+  padding: 5% ;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://hips.hearstapps.com/hmg-prod/images/run-nike-running-shoes-646cdd1a19c41.jpg);
+  
+}
+.hero h1 {
+  color: rgb(48, 255, 248);
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
+}
+.product-cards {
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.section {
+	flex-basis: 60%;
+	margin-bottom: 5%;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 0 10px black;
+	border-radius: 5px;
+}
+
+.footer {
+  background-color: #000000;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .product-cards .card,
+  .product-cards .card img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) {
+  body {
+    background-color: white;
+  }
+}
